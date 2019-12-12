@@ -28,7 +28,7 @@ module.exports = function( config ) {
     },
 
     coverageIstanbulReporter: {
-      reports: [ "html", "text" ],
+      reports: [ "lcov", "html", "text" ],
       dir: Path.join( __dirname, "coverage" ),
     },
   } );
